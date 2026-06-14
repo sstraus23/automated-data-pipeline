@@ -4,7 +4,7 @@
 An end-to-end event-driven data pipeline built on AWS that automates raw data ingestion through schema transformation to live business intelligence dashboards. When a file is uploaded to S3, the pipeline automatically triggers, processes, and visualizes the data without any manual intervention.
 
 ## Architecture
-![Architecture Diagram](architecture.jpg)
+![Architecture Diagram](Project%207%20Architecture.png.jpg)
 S3 Event Trigger → Lambda (Preprocessing) → AWS Glue ETL (Apache Spark) → Amazon QuickSight (SPICE Engine)
 
 ## AWS Services Used
